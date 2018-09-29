@@ -8,7 +8,7 @@
 
 namespace tntn {
 
-const int MINIMAL_RASTER_SIZE = 128;
+const int MINIMAL_RASTER_SIZE = 256;
 
 RasterOverviews::RasterOverviews(UniqueRasterPointer input_raster, int min_zoom, int max_zoom) :
     m_base_raster(std::move(input_raster)),
